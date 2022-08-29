@@ -30,11 +30,11 @@ internal struct Folder: Unit {
 
     private func list(indent: String, unit: Unit) {
         guard let folder = unit as? Folder else {
-            print("\(indent) \(unit)")
+            print("\(indent) \(unit.description)")
             return
         }
 
-        print("\(indent) +  \(unit)")
+        print("\(indent) +  \(unit.description)")
         folder.units.forEach { unit in
             self.list(indent: "\(indent)    ", unit: unit)
         }
