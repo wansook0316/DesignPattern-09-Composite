@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		CE66D88B28BC2DAB004AC4B2 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE66D88A28BC2DAB004AC4B2 /* main.swift */; };
+		CEF163AA28BC6EFC0099D9E5 /* Unit.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF163A928BC6EFC0099D9E5 /* Unit.swift */; };
+		CEF163AC28BC6F070099D9E5 /* Folder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF163AB28BC6F060099D9E5 /* Folder.swift */; };
+		CEF163AE28BC6F0D0099D9E5 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF163AD28BC6F0D0099D9E5 /* File.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,9 @@
 /* Begin PBXFileReference section */
 		CE66D88728BC2DAB004AC4B2 /* Composite */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Composite; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE66D88A28BC2DAB004AC4B2 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		CEF163A928BC6EFC0099D9E5 /* Unit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unit.swift; sourceTree = "<group>"; };
+		CEF163AB28BC6F060099D9E5 /* Folder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Folder.swift; sourceTree = "<group>"; };
+		CEF163AD28BC6F0D0099D9E5 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +63,9 @@
 		CE66D88928BC2DAB004AC4B2 /* Composite */ = {
 			isa = PBXGroup;
 			children = (
+				CEF163A928BC6EFC0099D9E5 /* Unit.swift */,
+				CEF163AB28BC6F060099D9E5 /* Folder.swift */,
+				CEF163AD28BC6F0D0099D9E5 /* File.swift */,
 				CE66D88A28BC2DAB004AC4B2 /* main.swift */,
 			);
 			path = Composite;
@@ -121,6 +130,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE66D88B28BC2DAB004AC4B2 /* main.swift in Sources */,
+				CEF163AE28BC6F0D0099D9E5 /* File.swift in Sources */,
+				CEF163AA28BC6EFC0099D9E5 /* Unit.swift in Sources */,
+				CEF163AC28BC6F070099D9E5 /* Folder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
