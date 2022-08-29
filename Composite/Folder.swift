@@ -24,6 +24,22 @@ internal struct Folder: Unit {
         self.units.append(unit)
     }
 
+    internal func printList() {
+        self.list(indent: "", unit: self)
+    }
+
+    private func list(indent: String, unit: Unit) {
+        guard let folder = unit as? Folder else {
+            print("\(indent) \(unit)")
+            return
+        }
+
+        print("\(indent) +  \(unit)")
+        folder.units.forEach { unit in
+            self.list(indent: "\(indent)    ", unit: unit)
+        }
+    }
+
     private var units = [Unit]()
 
 }
