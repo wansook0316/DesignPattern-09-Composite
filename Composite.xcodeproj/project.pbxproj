@@ -64,8 +64,8 @@
 			isa = PBXGroup;
 			children = (
 				CEF163A928BC6EFC0099D9E5 /* Unit.swift */,
-				CEF163AB28BC6F060099D9E5 /* Folder.swift */,
 				CEF163AD28BC6F0D0099D9E5 /* File.swift */,
+				CEF163AB28BC6F060099D9E5 /* Folder.swift */,
 				CE66D88A28BC2DAB004AC4B2 /* main.swift */,
 			);
 			path = Composite;

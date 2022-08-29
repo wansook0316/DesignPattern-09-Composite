@@ -6,3 +6,10 @@
 //
 
 import Foundation
+
+internal struct File: Unit {
+
+    internal let name: String
+    internal let size: Int
+
+}
